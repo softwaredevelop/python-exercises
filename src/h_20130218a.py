@@ -70,6 +70,7 @@ def main():
     Main function
     """
     test(string_methods_a(TEXT_A), TEXT_B)
+    test(string_methods_a(TEXT_B), TEXT_A)
 
 
 if __name__ == "__main__":
